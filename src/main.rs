@@ -1,10 +1,21 @@
 // use std::crypto::*; these crypto protocol
+//
+// must use asym
+//
 fn main() {
     println!("Hello, world!");
 }
 
 pub fn configure() -> msec_ent {
 
+}
+
+struct msec_accport {
+    // enabled, operational
+    //
+    // isptp
+    //
+    // force ptp
 }
 
 struct mac_pdu {
@@ -14,6 +25,11 @@ struct mac_pdu {
     // msdu
     // FCS
     // tag
+}
+
+struct msec_fr {
+    // icv
+    // securedata
 }
 
 struct msec_ent {
